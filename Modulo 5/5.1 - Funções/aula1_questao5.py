@@ -1,0 +1,11 @@
+import emoji
+print('Emojis Disponíveis:')
+print()
+print(emoji.emojize(':red_heart: '), " - :red_heart:")
+print(emoji.emojize(':thumbs_up:'), " - :thumbs_up:")
+print(emoji.emojize(':thinking_face:'), " - :thinking_face:")
+print(emoji.emojize(':partying_face:'), " - :partying_face:")
+print(emoji.emojize(':winking_face:'), " - :winking_face:")
+print()
+frase = str(input("Digite uma frase e ela será emojizada!: "))
+print(emoji.emojize(frase))
