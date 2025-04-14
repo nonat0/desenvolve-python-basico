@@ -1,0 +1,3 @@
+nnt;123;manager
+nnt2;12345;admin
+nntclient;123;client
